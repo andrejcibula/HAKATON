@@ -16,4 +16,5 @@ class Solution:
     def do_iteration(self, simulator_output, user_input=None):
         # Implement your iteration logic here
         # This is just a placeholder implementation
-        return user_input  # Replace with actual iteration logic
+        #return user_input  # Replace with actual iteration logic
+        return [0.0, 0.5, 0.0]  # Example: [steering, throttle, brake]
